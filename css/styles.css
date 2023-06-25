@@ -698,3 +698,8 @@ color: var(--dark-blu);
 .footer-input::placeholder{
   color: var(--white-color);
 }
+.modal-close-button{
+  min-width: 165px;
+  display: flex;
+  font-weight: 500;
+}
