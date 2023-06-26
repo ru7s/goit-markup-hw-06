@@ -783,6 +783,9 @@ svg.privacy-icon{
   background-color: var(--blu-color);
   border: none;
   border-radius: 4px;
+  height: 56px;
+  min-width: 169px;
+  display: block;
 }
 
 /*--Footer-Form--*/
