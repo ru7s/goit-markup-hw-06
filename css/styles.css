@@ -696,6 +696,9 @@ color: var(--dark-grey);
 .input-container{
   position: relative;
 }
+.footer-form-icon{
+  margin-left: 16px;
+}
 .form-input{
   width: 100%;
   height: 40px;
