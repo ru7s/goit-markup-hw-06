@@ -786,6 +786,7 @@ svg.privacy-icon{
   height: 56px;
   min-width: 169px;
   display: block;
+  transition:background-color var(--transition) ;
 }
 .privacy-input:checked+.privacy-text span{
   border: none;
