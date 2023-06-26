@@ -323,13 +323,10 @@
 </div>
 <div class="comment-field">
   <label for="user-comment" class="form-label">Comment</label>
-  <div class="input-container">
-    <input id="user-comment" type="comment" name="user-comment" class="form-input" required>
-    <svg class="form-icon" width="18" height="24">
-      <use href="">
-      </use>
-    </svg>
-  </div>
+  <textarea name="user-comment" id="form-label" class="form-textarea" placeholder="Text input">
+    <div contenteditable="plaintext-only"></div>
+    <div pseudo="placeholder">Text input</div>
+  </textarea>
 </div>
 <div class="checkbox-field">
     <input type="checkbox" id="user-privacy" name="user-privacy" value="true" class="privacy-input visually-hidden" required>
