@@ -706,6 +706,16 @@ color: var(--dark-grey);
   outline: transparent;
   transition:border-color var(--transition);
 }
+.form-input:focus{
+  border-color: var(--blu-color);
+}
+.form-icon{
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  
+}
 
 /*--Footer-Form--*/
 .form-footer-text{
