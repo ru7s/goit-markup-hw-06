@@ -682,7 +682,9 @@ letter-spacing: 0.02em;
 color:var(--background-color);
 margin-bottom: 16px;
 }
-
+.modal-field{
+  margin-bottom: 8px;
+}
 /*--Footer-Form--*/
 .form-footer-text{
   margin-bottom: 16px;
