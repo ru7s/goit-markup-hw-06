@@ -793,6 +793,9 @@ svg.privacy-icon{
   background-color: var(--hover-background);
 
 }
+.privacy-link{
+  color: var(--blu-color);
+}
 
 /*--Footer-Form--*/
 
