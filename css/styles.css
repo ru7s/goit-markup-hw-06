@@ -770,7 +770,10 @@ color: var(--dark-grey);
   letter-spacing: 0.04em;
   color: var(--dark-grey);
 }
-
+svg.privacy-icon{
+  width: 10px;
+  height: 8px;
+}
 
 /*--Footer-Form--*/
 
