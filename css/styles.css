@@ -723,6 +723,17 @@ color: var(--dark-grey);
 .form-textarea{
   width: 100%;
   height: 120px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 8px 16px;
+  outline: transparent;
+  resize: none;
+  transition: border-color var(--transition)
 
 }
 
@@ -737,18 +748,6 @@ color: var(--dark-grey);
 .form-footer{
   display: flex;
   gap: 24px;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 4px;
-  padding: 8px 16px;
-  outline: transparent;
-  resize: none;
-  background-color: transparent;
-  color: rgba(46, 47, 66, 0.4);
-  transition: border-color var(--transition);
-
 }
 .footer-input{
   width: 264px;
