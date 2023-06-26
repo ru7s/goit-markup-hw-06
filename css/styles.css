@@ -734,10 +734,19 @@ color: var(--dark-grey);
   outline: transparent;
   resize: none;
   transition: border-color var(--transition)
-
+}
+.form-textarea:focus{
+  border-color: var(--blu-color);
+}
+.user-privacy{
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--dark-grey);
 }
 
 /*--Footer-Form--*/
+
 .form-footer-text{
   margin-bottom: 16px;
   font-weight: 500;
