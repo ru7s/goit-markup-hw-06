@@ -693,6 +693,9 @@ display: block;
 margin-bottom: 4px;
 color: var(--dark-grey);
 }
+.input-container{
+  position: relative;
+}
 
 /*--Footer-Form--*/
 .form-footer-text{
