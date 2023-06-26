@@ -518,6 +518,9 @@ color: var(--dark-blu);
    }
 
 /*Footer*/
+.footer-form-container{
+  margin-left: 80px;
+}
 .logo-footer-item{
   font-family: "Raleway", sans-serif;
     font-weight: 800;
