@@ -714,7 +714,10 @@ color: var(--dark-grey);
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  
+
+}
+.comment-field{
+  margin-bottom: 16px;
 }
 
 /*--Footer-Form--*/
