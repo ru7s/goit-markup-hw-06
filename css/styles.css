@@ -613,6 +613,7 @@ color: var(--dark-blu);
   visibility: hidden;
   pointer-events: none;
 }
+
 .backdrop{
   position: fixed;
   top: 0;
@@ -626,6 +627,7 @@ color: var(--dark-blu);
   0.4);
   transition: opacity var(--transition),visibility var(--transition);
 }
+
 .modal{
   position: absolute;
   top: 50%;
@@ -639,7 +641,9 @@ color: var(--dark-blu);
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transition: transform var(--transition);
+    
 }
+
 .modal-close-button{
   position: absolute;
   top: 24px;
@@ -710,6 +714,5 @@ color: var(--dark-blu);
   cursor: pointer;
   background-color: var(--blu-color);
   border: none;
-  border-radius: 4px;
-  
+  border-radius: 4px; 
 }
