@@ -674,6 +674,14 @@ color: var(--dark-blu);
 .modal-close-button:focus,.modal-close-icon{
   fill: var(--white-color);
 }
+.modal-title{
+font-weight: 500;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color:var(--background-color);
+margin-bottom: 16px;
+}
 
 /*--Footer-Form--*/
 .form-footer-text{
