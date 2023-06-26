@@ -786,7 +786,12 @@ svg.privacy-icon{
   height: 56px;
   min-width: 169px;
   display: block;
+}
+.privacy-input:checked+.privacy-text span{
   border: none;
+  fill:var(--light-white);
+  background-color: var(--hover-background);
+
 }
 
 /*--Footer-Form--*/
