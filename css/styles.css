@@ -758,11 +758,12 @@ color: var(--dark-grey);
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  transition: background-color var(--transition);
+  transition: background-color var(--transition),border var(--transition),fill var(--transition);
   display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
+
 
 }
 .checkbox-field{
