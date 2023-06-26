@@ -774,6 +774,16 @@ svg.privacy-icon{
   width: 10px;
   height: 8px;
 }
+.form-button{
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  cursor: pointer;
+  background-color: var(--blu-color);
+  border: none;
+  border-radius: 4px;
+}
 
 /*--Footer-Form--*/
 
