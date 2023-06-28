@@ -803,6 +803,10 @@ svg.privacy-icon{
   margin-right: auto;
   margin-top: 24px;
 }
+.form-button:hover,
+.form-button:focus{
+  background-color: var(--hover-background);
+}
 
 .privacy-input:checked+.privacy-text span{
   border: none;
