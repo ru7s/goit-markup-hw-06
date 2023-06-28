@@ -801,6 +801,7 @@ svg.privacy-icon{
   transition:background-color var(--transition); 
   margin-left: auto;
   margin-right: auto;
+  margin-top: 24px;
 }
 
 .privacy-input:checked+.privacy-text span{
