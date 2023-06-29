@@ -723,7 +723,7 @@ color: var(--dark-grey);
   transform: translateY(-50%);
   transition: fill
   var(--transition);
-  fill: var(--blu-color);
+  fill:var(--background-color);
 
 }
 .comment-field{
