@@ -726,6 +726,12 @@ color: var(--dark-grey);
   fill:var(--background-color);
 
 }
+.form-icon:focus{
+  outline-style: auto;
+  outline-width: 5px;
+  outline-color: var(--blu-color);
+}
+
 .comment-field{
   margin-bottom: 16px;
 }
