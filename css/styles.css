@@ -724,12 +724,12 @@ color: var(--dark-grey);
   transition: fill
   var(--transition);
   fill:var(--background-color);
-
 }
+
 .form-icon:focus{
   outline-style: auto;
   outline-width: 5px;
-  outline-color: var(--blu-color);
+  outline-color:rgba(0,103,244);
 }
 
 .comment-field{
@@ -776,22 +776,24 @@ color: var(--dark-grey);
   align-items: center;
   justify-content: center;
   fill: transparent;
-
-
 }
+
 .checkbox-field{
   margin-bottom: 24px;
 }
+
 .privacy-text{
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--dark-grey);
 }
+
 svg.privacy-icon{
   width: 10px;
   height: 8px;
 }
+
 .form-button{
   font-weight: 500;
   line-height: 1.5;
@@ -833,10 +835,12 @@ svg.privacy-icon{
   letter-spacing: 0.02em;
   color: var(--white-color);
 }
+
 .form-footer{
   display: flex;
   gap: 24px;
 }
+
 .footer-input{
   width: 264px;
   height: 40px;
