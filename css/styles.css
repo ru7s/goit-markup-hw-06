@@ -726,11 +726,6 @@ color: var(--dark-grey);
   fill:var(--background-color);
 }
 
-.form-icon:focus{
-  outline-style: auto;
-  outline-width: 5px;
-  outline-color:rgba(0,103,244);
-}
 
 .comment-field{
   margin-bottom: 16px;
