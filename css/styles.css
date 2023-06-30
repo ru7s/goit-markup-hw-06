@@ -780,6 +780,7 @@ color: var(--dark-grey);
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .checkbox-field{
