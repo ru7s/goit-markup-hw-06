@@ -674,7 +674,7 @@ color: var(--dark-blu);
 .modal-close-icon{
   transition: fill var(--transition);
 }
-.modal-close-button:hover,.modal-close-icon
+.modal-close-button:hover,.modal-close-icon,
 .modal-close-button:focus,.modal-close-icon{
   fill: var(--white-color);
 }
@@ -725,7 +725,6 @@ color: var(--dark-grey);
   var(--transition);
   fill:var(--background-color);
 }
-
 
 .comment-field{
   margin-bottom: 16px;
@@ -807,6 +806,7 @@ svg.privacy-icon{
   margin-right: auto;
   margin-top: 24px;
 }
+
 .form-button:hover,
 .form-button:focus{
   background-color: var(--hover-background);
