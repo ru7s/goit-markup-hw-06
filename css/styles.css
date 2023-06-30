@@ -749,7 +749,8 @@ color: var(--dark-grey);
   padding: 8px 16px;
   outline: transparent;
   resize: none;
-  transition: border-color var(--transition)
+  transition: border-color var(--transition);
+  display: block;
 }
 .form-textarea:focus{
   border-color: var(--blu-color);
