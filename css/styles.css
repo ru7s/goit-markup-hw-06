@@ -878,3 +878,8 @@ svg.privacy-icon{
   border: none;
   border-radius: 4px; 
 }
+
+.footer-button:focus,
+.footer-button:hover{
+  background-color: var(--hover-background);
+}
