@@ -863,6 +863,10 @@ svg.privacy-icon{
 .footer-input::placeholder{
   color: var(--white-color);
 }
+.footer-button:focus,
+.footer-button:hover {
+  background-color: var(--hover-background);
+}
 
 .footer-button{
   min-width: 165px;
@@ -879,7 +883,4 @@ svg.privacy-icon{
   border-radius: 4px; 
 }
 
-.footer-button:focus,
-.footer-button:hover{
-  background-color: var(--hover-background);
-}
+
