@@ -706,6 +706,7 @@ color: var(--dark-grey);
 
 .footer-form-icon{
   margin-left: 16px;
+  fill: var(--light-white);
 }
 
 .form-input{
