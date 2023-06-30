@@ -722,8 +722,8 @@ color: var(--dark-grey);
   border-color: var(--blu-color);
 }
 
-.form-input:focus+.form-icon {
-  fill: var(--blue-text-color);
+.form-input:focus+ .form-icon {
+  fill: var(--blu-color);
 }
 
 .form-icon{
