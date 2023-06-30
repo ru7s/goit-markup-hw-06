@@ -721,6 +721,11 @@ color: var(--dark-grey);
 .form-input:focus{
   border-color: var(--blu-color);
 }
+
+.form-input:focus+.form-icon {
+  fill: var(--blue-text-color);
+}
+
 .form-icon{
   position: absolute;
   left: 16px;
